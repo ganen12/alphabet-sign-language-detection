@@ -49,7 +49,7 @@ INSTRUKSI
    - Jalankan sel di notebook sesuai urutan:
      1. Jalankan 'Import library' dan 'Init Awal'
      2. Download model pre-trained melalui link gdrive berikut:
-        https://drive.google.com/file/d/1fKEbXuT95EkuR8lrdrfD_TIDb_5KvNQX/view?usp=sharing
+        https://drive.google.com/drive/folders/15nb3dx8gHp-DNaeN9Z5PPBwfe2EtJ0Pw?usp=sharing
 
         Lalu letakkan model ke folder projek
      2. Jalankan 'Deteksi Tangan Realtime'
@@ -60,4 +60,5 @@ INSTRUKSI
 
 5. Menonaktifkan Virtual Environment
    - Gunakan perintah ini di command:
+
      >'deactivate'
