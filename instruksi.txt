@@ -6,10 +6,7 @@ INSTRUKSI
 
 1. Persiapkan Virtual Environment
    - Pastikan Python terinstal di komputer.
-   - Buka terminal/command prompt di folder proyek:
-     
-     cd "alphabet level sign language 2"
-
+   - Buka terminal/command prompt di folder proyek
    - Buat virtual environment:
      
      python -m venv mp_env
@@ -38,8 +35,12 @@ INSTRUKSI
      Jika dengan VSCode, ganti kernel ke kernel python virtual env (mp_env)
 
    - Jalankan sel di notebook sesuai urutan:
-     1. 'Import library' dan 'Init Awal'
-     2. 'Deteksi Tangan Realtime'
+     1. Jalankan 'Import library' dan 'Init Awal'
+     2. Download model melalui link gdrive berikut:
+        https://drive.google.com/file/d/1fKEbXuT95EkuR8lrdrfD_TIDb_5KvNQX/view?usp=sharing
+
+        Lalu letakkan model ke folder projek
+     2. Jalankan 'Deteksi Tangan Realtime'
      3. Pastikan webcam berfungsi untuk mendeteksi gestur tangan
      4. Tekan tombol 'q' untuk keluar dari deteksi
 
