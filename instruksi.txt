@@ -16,7 +16,8 @@ INSTRUKSI
        mp_env\Scripts\activate
 
 2. Install Library yang Dibutuhkan
-   - Jalankan perintah berikut untuk menginstall semua library:     
+   - Jalankan perintah berikut secara berurutan:
+     pip install tensorflow==2.15.0      
      pip install mediapipe==0.10.14 protobuf==4.25.3 tqdm scikit-learn opencv-python
 
 3. Ketentuan data training dan tujuan penggunaan
@@ -29,19 +30,9 @@ INSTRUKSI
      https://drive.google.com/drive/folders/1-CYIYzcI2VOMf6ESV_ZW5BKrJ6mu2uZ5?usp=sharing
 
    - Jika ingin langsung menggunakan model pre-trained
-     Terdapat 3 jenis model pre-trained
-     https://drive.google.com/drive/folders/15nb3dx8gHp-DNaeN9Z5PPBwfe2EtJ0Pw?usp=sharing
+     https://drive.google.com/file/d/1lhNsiPuDzmRQJhHBNkS-v8ENNuiZKsP9/view?usp=sharing
 
-4. Overview struktur folder proyek lengkap
-   - ASL_Dataset/
-       Train/  --> data latihan
-       Test/   --> data testing
-   - mp_env/  --> environment project
-   - model.p  --> model machine learning yang sudah dilatih
-   - train_data.pickle, test_data.pickle  --> dataset yang sudah diproses
-   - test.ipynb --> file utama untuk menjalankan deteksi dan prediksi ASL
-
-4. Menjalankan Project (untuk model pretrained)
+3. Menjalankan Project (untuk model pretrained)
    - Pastikan virtual environment sudah aktif.
    - Buka file `test.ipynb` menggunakan Jupyter Notebook atau Visual Studio Code:
      
@@ -50,7 +41,7 @@ INSTRUKSI
    - Jalankan sel di notebook sesuai urutan:
      1. Jalankan 'Import library' dan 'Init Awal'
      2. Download model pre-trained melalui link gdrive berikut:
-        https://drive.google.com/drive/folders/15nb3dx8gHp-DNaeN9Z5PPBwfe2EtJ0Pw?usp=sharing
+        https://drive.google.com/file/d/1lhNsiPuDzmRQJhHBNkS-v8ENNuiZKsP9/view?usp=sharing
 
         Lalu letakkan model ke folder projek
      2. Jalankan 'Deteksi Tangan Realtime'
@@ -59,9 +50,6 @@ INSTRUKSI
         posisikan tangan agar dekat dengan kamera
      5. Tekan tombol 'q' untuk keluar dari deteksi
 
-5. Menonaktifkan Virtual Environment
+4. Menonaktifkan Virtual Environment
    - Gunakan perintah ini di command:
-
      >'deactivate'
-
-
