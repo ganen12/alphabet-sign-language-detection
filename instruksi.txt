@@ -19,7 +19,19 @@ INSTRUKSI
    - Jalankan perintah berikut untuk menginstall semua library:     
      pip install mediapipe==0.10.14 protobuf==4.25.3 tqdm scikit-learn opencv-python
 
-3. Struktur Folder (abaikan)
+3. Ketentuan data training dan tujuan penggunaan
+   - Jika ingin mendownload dataset dan melakukan ekstraksi dan training dari awal
+     Download atau gunakan kaggle API dari link dataset berikut:
+     https://www.kaggle.com/datasets/kapillondhe/american-sign-language
+
+   - Jika ingin langsung train
+     Data test/train yang sudah diekstraksi (keypoint dan label) siap untuk training:
+     https://drive.google.com/drive/folders/1-CYIYzcI2VOMf6ESV_ZW5BKrJ6mu2uZ5?usp=sharing
+
+   - Jika ingin langsung menggunakan model pre-trained
+     https://drive.google.com/file/d/1fKEbXuT95EkuR8lrdrfD_TIDb_5KvNQX/view?usp=sharing
+
+4. Overview struktur folder proyek lengkap
    - ASL_Dataset/
        Train/  --> data latihan
        Test/   --> data testing
@@ -28,7 +40,7 @@ INSTRUKSI
    - train_data.pickle, test_data.pickle  --> dataset yang sudah diproses
    - test.ipynb --> file utama untuk menjalankan deteksi dan prediksi ASL
 
-4. Menjalankan Project
+4. Menjalankan Project (untuk model pretrained)
    - Pastikan virtual environment sudah aktif.
    - Buka file `test.ipynb` menggunakan Jupyter Notebook atau Visual Studio Code:
      
@@ -36,7 +48,7 @@ INSTRUKSI
 
    - Jalankan sel di notebook sesuai urutan:
      1. Jalankan 'Import library' dan 'Init Awal'
-     2. Download model melalui link gdrive berikut:
+     2. Download model pre-trained melalui link gdrive berikut:
         https://drive.google.com/file/d/1fKEbXuT95EkuR8lrdrfD_TIDb_5KvNQX/view?usp=sharing
 
         Lalu letakkan model ke folder projek
