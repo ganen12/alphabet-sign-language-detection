@@ -29,10 +29,7 @@ INSTRUKSI
      https://drive.google.com/drive/folders/1-CYIYzcI2VOMf6ESV_ZW5BKrJ6mu2uZ5?usp=sharing
 
    - Jika ingin langsung menggunakan model pre-trained
-     Terdapat 3 jenis model pre-trained: 
-       1. No split, n = 200
-       2. split 15%, n = 200
-       3. split 15%, n = 100 (ukuran file terkecil)
+     Terdapat 3 jenis model pre-trained
      https://drive.google.com/drive/folders/15nb3dx8gHp-DNaeN9Z5PPBwfe2EtJ0Pw?usp=sharing
 
 4. Overview struktur folder proyek lengkap
@@ -66,4 +63,5 @@ INSTRUKSI
    - Gunakan perintah ini di command:
 
      >'deactivate'
+
 
