@@ -29,7 +29,7 @@ INSTRUKSI
      https://drive.google.com/drive/folders/1-CYIYzcI2VOMf6ESV_ZW5BKrJ6mu2uZ5?usp=sharing
 
    - Jika ingin langsung menggunakan model pre-trained
-     https://drive.google.com/file/d/1fKEbXuT95EkuR8lrdrfD_TIDb_5KvNQX/view?usp=sharing
+     https://drive.google.com/drive/folders/15nb3dx8gHp-DNaeN9Z5PPBwfe2EtJ0Pw?usp=sharing
 
 4. Overview struktur folder proyek lengkap
    - ASL_Dataset/
@@ -54,7 +54,9 @@ INSTRUKSI
         Lalu letakkan model ke folder projek
      2. Jalankan 'Deteksi Tangan Realtime'
      3. Pastikan webcam berfungsi untuk mendeteksi gestur tangan
-     4. Tekan tombol 'q' untuk keluar dari deteksi
+     4. Agar deteksi lebih akurat, usahakan tangan terlihat jelas, 
+        posisikan tangan agar dekat dengan kamera
+     5. Tekan tombol 'q' untuk keluar dari deteksi
 
 5. Menonaktifkan Virtual Environment
    - Gunakan perintah ini di command:
