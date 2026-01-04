@@ -2,7 +2,8 @@
 
 **1. Persiapkan Virtual Environment**
    - Pastikan Python terinstal di komputer.
-   - Buka terminal/command prompt di folder proyek
+   - Letakkan file2 yang dibutuhkan ke folder projek
+   - Buka terminal/command prompt di folder projek
    - Buat virtual environment:
      
      ```
@@ -26,22 +27,22 @@
    - Jika ingin data siap train, download data test/train yang sudah diekstraksi (keypoint dan label) dari
      [link ini](https://drive.google.com/drive/folders/1-CYIYzcI2VOMf6ESV_ZW5BKrJ6mu2uZ5?usp=sharing)
 
-   - Jika ingin langsung menggunakan model pre-trained, download `model_nn.h5` dan `label_encoder.pickle` dari repo ini atau  
+   - Jika ingin langsung menggunakan model pre-trained, download `model_nn.h5` dan `label_encoder.pickle` dari **repo** ini atau  
      [link ini](https://drive.google.com/drive/folders/1bLMTPYfIp5zfRJIPQUcq3ueDLU05xeTU?usp=sharing)
      
-**4. Menjalankan Project (untuk model pretrained)**
+**4. Menjalankan Project (langsung menggunakan model pre-trained)**
    - Pastikan virtual environment sudah aktif.
+   - Pastikan sudah ada file `test-MLP.ipynb`, `model_nn.h5`, dan `label_encoder.pickle` di folder projek anda
    - Buka file `test-MLP.ipynb` menggunakan Jupyter Notebook atau Visual Studio Code:
      
      Jika dengan VSCode, ganti kernel ke kernel python virtual env (mp_env)
 
    - Ikuti langkah-langkah berikut sesuai urutan:
      1. Jalankan Sel 'Import library' dan 'Init Awal'
-     2. Pastikan sudah ada file `model_nn.h5` dan `label_encoder.pickle` di folder projek anda
-     3. Jalankan Sel 'Deteksi Realtime' secara berurutan
-     4. Pastikan webcam berfungsi agar bisa mendeteksi gestur tangan
-     5. Agar deteksi lebih akurat, usahakan tangan terlihat jelas. Buka [file ini](/docs/asl_images.md) untuk melihat referensi gerakan tangan ASL alfabet 
-     6. Tekan tombol 'q' untuk keluar dari deteksi
+     2. Jalankan Sel 'Deteksi Realtime' secara berurutan
+     3. Pastikan webcam berfungsi agar bisa mendeteksi gestur tangan
+     4. Agar deteksi lebih akurat, usahakan tangan terlihat jelas. Buka [file ini](/docs/asl_images.md) untuk melihat referensi gerakan tangan ASL alfabet 
+     5. Tekan tombol 'q' untuk keluar dari deteksi
 
 **5. Menonaktifkan Virtual Environment**
    - Gunakan perintah ini di command:
