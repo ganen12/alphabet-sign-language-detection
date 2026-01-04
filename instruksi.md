@@ -45,7 +45,7 @@
         Lalu letakkan model dan Label Encoder ke folder projek
      2. Jalankan Sel 'Deteksi Realtime' secara berurutan
      3. Pastikan webcam berfungsi agar bisa mendeteksi gestur tangan
-     4. Agar deteksi lebih akurat, usahakan tangan terlihat jelas. Buka 
+     4. Agar deteksi lebih akurat, usahakan tangan terlihat jelas. Buka [file ini](/docs/asl_images.md) untuk melihat referensi gerakan tangan ASL alfabet 
      5. Tekan tombol 'q' untuk keluar dari deteksi
 
 4. Menonaktifkan Virtual Environment
