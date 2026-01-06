@@ -1,27 +1,36 @@
-## INSTRUKSI
+### 1. Persyaratan Sistem
 
-**1. Persiapkan Virtual Environment**
-   - Pastikan Python terinstal di komputer.
+   ⚠️ Compatibility Notice
+   
+   Proyek ini dikembangkan dan diuji menggunakan:
+
+   - Python 3.9.x
+   - TensorFlow 2.15.0
+   - MediaPipe 0.10.14
+   - NumPy 1.26.4
+
+Sehingga untuk projek ini **wajib** menggunakan Python **3.9.x**. Disarankan menggunakan Python 3.9.2 – 3.9.13. Python versi tersebut bisa didownload di https://www.python.org/downloads/
+
+### 2. Persiapkan Virtual Environment
    - Letakkan file2 yang dibutuhkan ke folder projek
    - Buka terminal/command prompt di folder projek
    - Buat virtual environment:
      
      ```
-     python -m venv mp_env
+     py -3.9 -m venv mp_env
      ```
    - Aktifkan virtual environment (Windows):
      ```
        mp_env\Scripts\activate
      ```
-**2. Install Library yang Dibutuhkan**
-   - Jalankan perintah berikut secara berurutan:
+### 3. Install Library yang Dibutuhkan
+   - Jalankan perintah berikut:
      
      ```
-     pip install tensorflow==2.15.0      
-     pip install mediapipe==0.10.14 protobuf==4.25.3 tqdm scikit-learn opencv-python
+      pip install -r requirements.txt
      ```
-**3. Ketentuan data training dan tujuan penggunaan**
-   - Jika ingin melakukan ekstraksi dan training dari awal, download atau gunakan kaggle API dari link 
+### 4. Ketentuan data training dan tujuan penggunaan
+   - Training dari awal, download atau gunakan kaggle API dari link 
      [dataset ini](https://www.kaggle.com/datasets/kapillondhe/american-sign-language)
 
    - Jika ingin data siap train, download data test/train yang sudah diekstraksi (keypoint dan label) dari
@@ -30,12 +39,12 @@
    - Jika ingin langsung menggunakan model pre-trained, download `model_nn.h5` dan `label_encoder.pickle` dari **repo** ini atau  
      [link ini](https://drive.google.com/drive/folders/1bLMTPYfIp5zfRJIPQUcq3ueDLU05xeTU?usp=sharing)
      
-**4. Menjalankan Project (langsung menggunakan model pre-trained)**
+### 5. Menjalankan Project (langsung menggunakan model pre-trained)
    - Pastikan virtual environment sudah aktif.
    - Pastikan sudah ada file `test-MLP.ipynb`, `model_nn.h5`, dan `label_encoder.pickle` di folder projek anda
    - Buka file `test-MLP.ipynb` menggunakan Jupyter Notebook atau Visual Studio Code:
      
-     Jika dengan VSCode, ganti kernel ke kernel python virtual env (mp_env)
+     Jika dengan VSCode, ganti kernel ke kernel python virtual env (mp_env) dengan python versi 3.9.x
 
    - Ikuti langkah-langkah berikut sesuai urutan:
      1. Jalankan Sel 'Import library' dan 'Init Awal'
@@ -44,7 +53,7 @@
      4. Agar deteksi lebih akurat, usahakan tangan terlihat jelas. Buka [file ini](/asl_images/asl_images.md) untuk melihat referensi gerakan tangan ASL alfabet 
      5. Tekan tombol 'q' untuk keluar dari deteksi
 
-**5. Menonaktifkan Virtual Environment**
+### 6. Menonaktifkan Virtual Environment
    - Gunakan perintah ini di command:
      ``` 
      deactivate
