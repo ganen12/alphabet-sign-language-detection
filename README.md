@@ -8,7 +8,7 @@ Ini adalah projek python yang menggunakan MediaPipe + Ekstraksi landmark menjadi
    
    Proyek ini dikembangkan dan diuji menggunakan:
 
-   - Python 3.9.x
+   - Python 3.9.2
    - TensorFlow 2.15.0
    - MediaPipe 0.10.14
    - NumPy 1.26.4
@@ -47,8 +47,13 @@ Sehingga untuk projek ini **wajib** menggunakan Python **3.9.x**. Disarankan men
    - Pastikan virtual environment sudah aktif.
    - Pastikan sudah ada file `test-MLP.ipynb`, `model_nn.h5`, dan `label_encoder.pickle` di folder projek anda
    - Buka file `test-MLP.ipynb` menggunakan Jupyter Notebook atau Visual Studio Code:
-     
-     Jika dengan VSCode, ganti kernel ke kernel python virtual env (mp_env) dengan python versi 3.9.x
+   
+        ⚠️ Pastikan Jupyter Notebook atau VS Code menggunakan **Python interpreter dari virtual environment (`mp_env`) dengan Python 3.9.x**.
+      - Jika menggunakan **VS Code**:
+        Pilih kernel → `Python 3.9 (mp_env)`
+      
+      - Jika menggunakan **Jupyter Notebook**:
+        Disarankan menjalankan Jupyter dari virtual environment (`mp_env`) agar kernel otomatis menggunakan environment yang benar.
 
    - Ikuti langkah-langkah berikut sesuai urutan:
      1. Jalankan Sel 'Import library' dan 'Init Awal'
