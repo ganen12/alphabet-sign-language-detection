@@ -13,7 +13,7 @@ Ini adalah projek python yang menggunakan MediaPipe + Ekstraksi landmark menjadi
    - MediaPipe 0.10.14
    - NumPy 1.26.4
 
-Sehingga untuk projek ini **wajib** menggunakan Python **3.9.x**. Disarankan menggunakan Python 3.9.2 – 3.9.13. Python versi tersebut bisa didownload di https://www.python.org/downloads/
+Sehingga untuk projek ini **wajib** menggunakan Python **3.9.x**. Disarankan menggunakan Python 3.9.2 – 3.9.13. Python versi tersebut bisa didownload di https://www.python.org/downloads/. Tidak usah tambahkan Python 3.9.x ke PATH
 
 ### 2. Persiapkan Virtual Environment
    - Letakkan file2 yang dibutuhkan ke folder projek
